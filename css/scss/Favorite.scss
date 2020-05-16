@@ -1,0 +1,62 @@
+@import "breakPoint.scss";
+h1{
+    text-align: center;
+}
+.favorite-do{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    @include breakPoint(md){
+        display: block;
+    }
+    h1{
+        @include breakPoint(){
+            text-align: center;
+        }
+    }
+    .with-margin-tag{
+        @include breakPoint(){
+            margin-bottom: 50px;
+        }
+    }
+    .favorite-tag{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .square-img{
+            @include breakPoint(){
+                width: 100%;
+                height: 400px;
+            }
+            @include breakPoint(sm){
+                height: 200px;
+            }
+        }
+        .rectangle-img{
+            @include breakPoint(){
+                width: 50%;
+                height: 300px;
+            }
+        }
+        iframe{
+            @include breakPoint(){
+                width: 100%;
+                height: 400px;
+            }
+            @include breakPoint(sm){
+                width: 100%;
+                height: 200px;
+            }
+        }
+
+
+        .comment{
+            margin-top: 20px;
+            border: solid 2px black;
+            display: block;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

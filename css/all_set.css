@@ -1,0 +1,222 @@
+#my_message {
+  text-align: center;
+  line-height: 3em; }
+  @media screen and (max-width: 767px) {
+    #my_message {
+      line-height: 40px; } }
+  #my_message h1 {
+    margin-bottom: 40px; }
+
+.tech-skill h1 {
+  margin-bottom: 100px; }
+.tech-skill .circle-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 80px; }
+  @media screen and (max-width: 767px) {
+    .tech-skill .circle-row-1 {
+      display: block;
+      text-align: center; } }
+.tech-skill .circle-row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  @media screen and (max-width: 767px) {
+    .tech-skill .circle-row-2 {
+      display: block;
+      text-align: center; } }
+
+.self-introduce-slide {
+  margin-top: 10px;
+  text-align: center; }
+  @media screen and (max-width: 767px) {
+    .self-introduce-slide iframe {
+      width: 100%;
+      height: 300px; } }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.body .section {
+  text-align: center; }
+  .body .section .swiper-slide {
+    margin: 0;
+    margin-top: 0; }
+    .body .section .swiper-slide p {
+      color: black; }
+    .body .section .swiper-slide h1 {
+      color: blue; }
+
+.section-title {
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+  font-weight: bold; }
+
+.portfolio-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  @media screen and (max-width: 767px) {
+    .portfolio-content {
+      display: block;
+      text-align: center; } }
+  .portfolio-content .portfolio-head {
+    display: flex;
+    flex-direction: column; }
+    @media screen and (max-width: 767px) {
+      .portfolio-content .portfolio-head {
+        display: block;
+        margin-bottom: 40px;
+        text-align: center; } }
+    .portfolio-content .portfolio-head h1 {
+      margin-top: 100px;
+      margin-bottom: 50px; }
+    .portfolio-content .portfolio-head iframe {
+      width: 480px;
+      height: 300px; }
+      @media screen and (max-width: 399px) {
+        .portfolio-content .portfolio-head iframe {
+          width: 100%;
+          height: 300px; } }
+    @media screen and (max-width: 399px) {
+      .portfolio-content .portfolio-head img {
+        width: 100%;
+        height: 50px; } }
+    @media screen and (max-width: 767px) {
+      .portfolio-content .portfolio-head img {
+        width: 480px;
+        height: 300px; } }
+  .portfolio-content .portfolio-body {
+    text-align: center; }
+    .portfolio-content .portfolio-body p {
+      line-height: 30px; }
+      @media screen and (max-width: 399px) {
+        .portfolio-content .portfolio-body p {
+          line-height: 30px; } }
+  .portfolio-content .portfolio-sns p {
+    line-height: 30px; }
+
+h1 {
+  text-align: center; }
+
+.favorite-do {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center; }
+  @media screen and (max-width: 767px) {
+    .favorite-do {
+      display: block; } }
+  @media screen and (max-width: 767px) {
+    .favorite-do h1 {
+      text-align: center; } }
+  @media screen and (max-width: 767px) {
+    .favorite-do .with-margin-tag {
+      margin-bottom: 50px; } }
+  .favorite-do .favorite-tag {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    @media screen and (max-width: 767px) {
+      .favorite-do .favorite-tag .square-img {
+        width: 100%;
+        height: 400px; } }
+    @media screen and (max-width: 399px) {
+      .favorite-do .favorite-tag .square-img {
+        height: 200px; } }
+    @media screen and (max-width: 767px) {
+      .favorite-do .favorite-tag .rectangle-img {
+        width: 50%;
+        height: 300px; } }
+    @media screen and (max-width: 767px) {
+      .favorite-do .favorite-tag iframe {
+        width: 100%;
+        height: 400px; } }
+    @media screen and (max-width: 399px) {
+      .favorite-do .favorite-tag iframe {
+        width: 100%;
+        height: 200px; } }
+    .favorite-do .favorite-tag .comment {
+      margin-top: 20px;
+      border: solid 2px black;
+      display: block;
+      text-decoration: none;
+      color: black; }
+
+.history-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px; }
+  @media screen and (max-width: 767px) {
+    .history-content {
+      display: block;
+      flex-direction: column;
+      justify-content: center; } }
+  @media screen and (max-width: 767px) {
+    .history-content .history-head {
+      text-align: center; } }
+  .history-content .history-head img {
+    width: 500px;
+    height: 400px; }
+    @media screen and (max-width: 767px) {
+      .history-content .history-head img {
+        width: 80%;
+        height: 300px; } }
+  @media screen and (max-width: 767px) {
+    .history-content .history-body {
+      text-align: center; } }
+  .history-content .history-body p {
+    line-height: 40px; }
+    @media screen and (max-width: 399px) {
+      .history-content .history-body p {
+        line-height: 20px; } }
+
+.conect {
+  display: flex;
+  justify-content: space-around; }
+  @media screen and (max-width: 767px) {
+    .conect {
+      display: block;
+      text-align: center; } }
+  .conect .sns {
+    margin-top: 100px; }
+    .conect .sns img {
+      border-radius: 50%;
+      width: 300px;
+      height: 300px;
+      align-self: center; }
+      @media screen and (max-width: 399px) {
+        .conect .sns img {
+          width: 200px;
+          height: 200px; } }
+    .conect .sns p {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center; }
+
+.modal {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  .modal .modal-bg {
+    background: rgba(0, 0, 0, 0.8);
+    height: 80vh;
+    position: absolute;
+    width: 100%; }
+  .modal .modal-inner {
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; }
+
+/*# sourceMappingURL=all_set.css.map */
