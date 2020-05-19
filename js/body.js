@@ -34,7 +34,7 @@ $(function(){
   }),
   new Circlebar({
     element: ".circle-ruby",
-    maxValue: 100,
+    maxValue: 40,
     type: "progress"
   }),
   new Circlebar({
