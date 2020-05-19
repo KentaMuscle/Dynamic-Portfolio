@@ -39,7 +39,7 @@ $(function(){
   }),
   new Circlebar({
     element: ".circle-java",
-    maxValue: 80,
+    maxValue: 50,
     type: "progress"
   });
 });
