@@ -24,8 +24,10 @@
         }
     }
     .history-body{
+        max-width: 600px;
         @include breakPoint(){
             text-align: center;
+            max-width: auto;
         }
         p{
             line-height: 40px;

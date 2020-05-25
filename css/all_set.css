@@ -167,14 +167,17 @@ h1 {
       .history-content .history-head img {
         width: 80%;
         height: 300px; } }
-  @media screen and (max-width: 767px) {
-    .history-content .history-body {
-      text-align: center; } }
-  .history-content .history-body p {
-    line-height: 40px; }
-    @media screen and (max-width: 399px) {
-      .history-content .history-body p {
-        line-height: 20px; } }
+  .history-content .history-body {
+    max-width: 600px; }
+    @media screen and (max-width: 767px) {
+      .history-content .history-body {
+        text-align: center;
+        max-width: auto; } }
+    .history-content .history-body p {
+      line-height: 40px; }
+      @media screen and (max-width: 399px) {
+        .history-content .history-body p {
+          line-height: 20px; } }
 
 .conect {
   display: flex;
