@@ -1,4 +1,3 @@
-//do as soon as after ended loading dom elements.
 $(function(){
   var swiper = new Swiper('.swiper-container', {
     navigation: {
@@ -6,8 +5,8 @@ $(function(){
       prevEl: '.swiper-button-prev',
     },
     
-    effect: "cube",
-    speed: 2000,
+    // effect: "cube",
+    // speed: 2000,
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
@@ -56,6 +55,8 @@ $(function() {
     });
 });
 
+
+//モーダルウィンドウの表示・非表示
 $(function(){
   $('.comment').on('click',function(){
       $('.modal').fadeIn();
